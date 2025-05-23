@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class="bg-black text-white">
+    <div class="flex xl:w-[80%] mx-auto">
+        <div class="first w-[56px] md:[150px] lg:w-[250px]  h-screen flex  flex-col justify-between sticky top-0">
+            <div class="sidebar flex flex-col items-start md:justify-start">
+                <div
+                    class="logo flex md:justify-start p-4 w-fit hover:cursor-pointer hover:border-0 hover:bg-gray-900 hover:rounded-[50%]">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-8 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <ul class="flex flex-col text-2xl w-full items-end md:items-start">
+                    <li
+                        class="md:w-fit flex justify-start items-center gap-5 hover:bg-gray-900 hover:border-0 hover:rounded-full hover:cursor-pointer px-4 py-2">
+                        <span class="material-symbols-outlined text-2xl">
+                            home
+                        </span><span class="hidden lg:block">Home</span></li>
+                    <li
+                        class="md:w-fit flex justify-start items-center gap-5 hover:bg-gray-900 hover:border-0 hover:rounded-full hover:cursor-pointer px-4 py-2">
+                        <span class="material-symbols-outlined text-2xl">
+                            search
+                        </span><span class="hidden lg:block">Explore</span></li>
+                    <li
+                        class="md:w-fit flex justify-start items-center gap-5 hover:bg-gray-900 hover:border-0 hover:rounded-full hover:cursor-pointer px-4 py-2">
+                        <span class="material-symbols-outlined text-2xl">
+                            notifications
+                        </span><span class="hidden lg:block">Notifications</span></li>
+                    <li
+                        class="md:w-fit flex justify-start items-center gap-5 hover:bg-gray-900 hover:border-0 hover:rounded-full hover:cursor-pointer px-4 py-2">
+                        <span class="material-symbols-outlined text-2xl">
+                            mail
+                        </span><span class="hidden lg:block">Messages</span></li>
+                    <li
+                        class="md:w-fit flex justify-start items-center gap-5 hover:bg-gray-900 hover:border-0 hover:rounded-full hover:cursor-pointer px-4 py-2">
+                        <span><svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-6 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                                <g>
+                                    <g clip-path="url(#6-clip0_2592_269)" clip-rule="evenodd">
+                                        <path
+                                            d="M18 4.1H6c-1.05 0-1.9.85-1.9 1.9v12c0 1.05.85 1.9 1.9 1.9h12c1.05 0 1.9-.85 1.9-1.9V6c0-1.05-.85-1.9-1.9-1.9zM6 2h12c2.21 0 4 1.79 4 4v12c0 2.21-1.79 4-4 4H6c-2.21 0-4-1.79-4-4V6c0-2.21 1.79-4 4-4z">
+                                        </path>
+                                        <path d="M6.68 17.8l8.108-11.58h2.532L9.21 17.8H6.68z"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="6-clip0_2592_269">
+                                            <rect height="20" rx="1" width="20" x="2" y="2"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </g>
+                            </svg></span><span class="hidden lg:block">Grok</span>
+                    </li>
+                    <li
+                        class="md:w-fit flex justify-start items-center gap-5 hover:bg-gray-900 hover:border-0 hover:rounded-full hover:cursor-pointer px-4 py-2">
+                        <span class="material-symbols-outlined text-2xl">
+                            groups
+                        </span><span class="hidden lg:block">Communities</span></li>
+                    <li
+                        class="md:w-fit flex justify-start items-center gap-5 hover:bg-gray-900 hover:border-0 hover:rounded-full hover:cursor-pointer px-4 py-2">
+                        <span class="material-symbols-outlined text-2xl">
+                            person
+                        </span><span class="hidden lg:block">Profile</span></li>
+                    <li
+                        class="md:w-fit flex justify-start items-center gap-5 hover:bg-gray-900 hover:border-0 hover:rounded-full hover:cursor-pointer px-4 py-2">
+                        <span class="material-symbols-outlined text-2xl">
+                            pending
+                        </span><span class="hidden lg:block">More</span></li>
+                </ul>
+                <div
+                    class="bg-[#1D9BF0] border-0 rounded-full flex items-center justify-center w-[90%] mt-3 font-bold hover:bg-opacity-85">
+                    <button class="px-4 py-3 hover:cursor-pointer hidden lg:block">Post</button>
+                </div>
+                <div
+                    class="bg-[#1D9BF0] border-0 rounded-full flex items-center justify-center w-[45px] h-[45px] hover:bg-opacity-85 ml-1 lg:hidden">
+                    <span class="material-symbols-outlined lg:hidden font-thin text-2xl">
+                        draw
+                    </span>
+                </div>
+            </div>
+
+            <div
+                class="py-1 px-2 lg:mr-2 mb-4 profile flex justify-center items-center hover:cursor-pointer hover:rounded-full hover:bg-gray-900">
+                <div class="pic mr-2 pt-3 pl-1 w-[40px]">
+                    <span class="material-symbols-outlined text-[40px] hover:cursor-pointer">
+                        account_circle
+                    </span>
+                </div>
+                <div class="names pr-2 hidden lg:block">Madhur Mittal
+                    <div class="text-[#71767B]">@MadhurM36676954</div>
+                </div>
+                <div class="p-1 hidden lg:block">
+                    <span class="material-symbols-outlined text-[#71767B]">
+                        more_horiz
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="second w-full md:w-[600px] border-[1px] border-x-[#35383a] border-y-black">
+            <div class="top flex sticky top-0 bg-black opacity-85 backdrop-blur-3xl">
+                <div class="absolute w-14 h-1 bottom-0 left-[20%] bg-[#1D9BF0] border-0 rounded-full z-10"></div>
+                <div class="left py-4 flex justify-center items-center font-bold w-1/2 text-[15px] hover:bg-gray-900">
+                    For You</div>
+                <div
+                    class="right py-4 flex justify-center items-center font-bold text-[15px] w-1/2 text-[#71767B] hover:bg-gray-900">
+                    Following</div>
+            </div>
+
+            <div class="h-[1px] w-full bg-[#35383a]"></div>
+
+            <div class="foryou px-4 pt-1 flex">
+                <div class="pic mr-2 pt-3 w-[40px]">
+                    <span class="material-symbols-outlined text-[40px] hover:cursor-pointer">
+                        account_circle
+                    </span>
+                </div>
+                <div class="content w-full">
+                    <input type="text" class="bg-transparent py-4 text-xl w-full outline-none"
+                        placeholder="What is happening?!">
+                    <div class="remain pb-2">
+                        <div class="reply flex text-sm mb-3">
+                            <div class="globe mr-2 flex justify-center items-center pl-3">
+                                <span class="material-symbols-outlined text-sm text-[#1D9BF0] ">
+                                    public
+                                </span>
+                            </div>
+                            <div class="text-[#1D9BF0] font-bold">Everyone can reply</div>
+                        </div>
+                        <div class="h-[0.8px] w-full bg-[#35383a]"></div>
+                        <div class="flex mt-2 justify-between">
+                            <div class="flex">
+                                <div class="flex items-center justify-center h-9 w-9 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined text-[#1D9BF0] rounded-full
+                                hover:bg-gray-900 p-1">
+                                        image
+                                    </span>
+                                </div>
+                                <div class="flex items-center justify-center h-9 w-9 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined  text-[#1D9BF0] rounded-full
+                                hover:bg-gray-900 p-1">
+                                        gif_box
+                                    </span>
+                                </div>
+                                <div class="flex items-center justify-center h-9 w-9 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined text-[#1D9BF0] rounded-full
+                                hover:bg-gray-900 p-1">
+                                        ballot
+                                    </span>
+                                </div>
+                                <div class="flex items-center justify-center h-9 w-9 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined text-[#1D9BF0] rounded-full
+                                hover:bg-gray-900 p-1">
+                                        mood
+                                    </span>
+                                </div>
+                                <div class="flex items-center justify-center h-9 w-9 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined  text-[#1D9BF0] rounded-full
+                                hover:bg-gray-900 p-1">
+                                        pending_actions
+                                    </span>
+                                </div>
+                                <div class="flex items-center justify-center h-9 w-9 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined text-[#1D9BF0] rounded-full
+                                hover:bg-gray-900 p-1">
+                                        location_on
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="bg-[#1D9BF0] border-0 rounded-full flex items-center hover:bg-opacity-85">
+                                <button class="px-4 hover:cursor-pointer">Post</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="h-[1px] w-full bg-[#35383a]"></div>
+
+            <div
+                class="flex justify-center h-12 items-center text-[16px] text-[#1D9BF0] font-light hover:cursor-pointer">
+                Show 805 posts</div>
+
+            <div class="h-[1px] w-full bg-[#35383a]"></div>
+
+            <div class="post-section">
+                <article class="px-4 pt-3 flex hover:cursor-pointer">
+                    <div class="mr-2 pt-1">
+                        <img class="border-0 rounded-full" width="40px" src="img/post-1.jpg " alt="">
+                    </div>
+                    <div class="main-post w-full pb-3">
+                        <div class="flex justify-between">
+                            <div class="block sm:flex">
+                                <span class="hover:underline">Indian Tech & Infra</span>
+                                <span class="pt-1 px-1">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                        data-testid="icon-verified">
+                                        <g>
+                                            <path clip-rule="evenodd"
+                                                d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="#829aab" fill-rule="evenodd"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="text-[#71767B]">@IndianTechGuide · May 29</span>
+                            </div>
+                            <div class="flex items-center p-1 hover:border-0 hover:rounded-full hover:bg-gray-900">
+                                <span class="material-symbols-outlined text-[#71767B] hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mb-3">Delhi recorded highest ever recorded temperature in India at 52.3 °C.</div>
+
+                        <img class="border-0 rounded-2xl"
+                            src="https://pbs.twimg.com/media/GOveUogbIAAdKkJ?format=jpg&name=small" alt="">
+
+                        <div class="flex justify-between pt-2 text-[#71767B]">
+                            <div class="w-[20%] flex items-center hover:text-[#1d9bf0]">
+                                <span
+                                    class="material-symbols-outlined pr-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    chat_bubble
+                                </span>
+                                <span class="text-[13px]">523</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(0,186,24)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(0,186,24)] rounded-full hover:bg-[rgba(0,186,24,0.2)] flex items-center justify-center">
+                                    published_with_changes
+                                </span>
+                                <span class="text-[13px]">3.3K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(249,24,128)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(249,24,128)] rounded-full hover:bg-[rgba(249,24,128,0.2)] flex items-center justify-center">
+                                    favorite
+                                </span>
+                                <span class="text-[13px]">24K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(29,155,240)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    Equalizer
+                                </span>
+                                <span class="text-[13px]">1.19M</span>
+                            </div>
+                            <div class="w-[12%] flex justify-end items-center">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    bookmark
+                                </span>
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <div class="h-[1px] w-full bg-[#35383a]"></div>
+                <article class="px-4 pt-3 flex hover:cursor-pointer">
+                    <div class="mr-2 pt-1">
+                        <img class="border-0 rounded-full" width="40px" src="img/post-1.jpg " alt="">
+                    </div>
+                    <div class="main-post w-full pb-3">
+                        <div class="flex justify-between">
+                            <div class="block sm:flex">
+                                <span class="hover:underline">Indian Tech & Infra</span>
+                                <span class="pt-1 px-1">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                        data-testid="icon-verified">
+                                        <g>
+                                            <path clip-rule="evenodd"
+                                                d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="#829aab" fill-rule="evenodd"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="text-[#71767B]">@IndianTechGuide · May 29</span>
+                            </div>
+                            <div class="flex items-center p-1 hover:border-0 hover:rounded-full hover:bg-gray-900">
+                                <span class="material-symbols-outlined text-[#71767B] hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mb-3">Delhi recorded highest ever recorded temperature in India at 52.3 °C.</div>
+
+                        <img class="border-0 rounded-2xl"
+                            src="https://pbs.twimg.com/media/GOveUogbIAAdKkJ?format=jpg&name=small" alt="">
+
+                        <div class="flex justify-between pt-2 text-[#71767B]">
+                            <div class="w-[20%] flex items-center hover:text-[#1d9bf0]">
+                                <span
+                                    class="material-symbols-outlined pr-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    chat_bubble
+                                </span>
+                                <span class="text-[13px]">523</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(0,186,24)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(0,186,24)] rounded-full hover:bg-[rgba(0,186,24,0.2)] flex items-center justify-center">
+                                    published_with_changes
+                                </span>
+                                <span class="text-[13px]">3.3K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(249,24,128)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(249,24,128)] rounded-full hover:bg-[rgba(249,24,128,0.2)] flex items-center justify-center">
+                                    favorite
+                                </span>
+                                <span class="text-[13px]">24K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(29,155,240)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    Equalizer
+                                </span>
+                                <span class="text-[13px]">1.19M</span>
+                            </div>
+                            <div class="w-[12%] flex justify-end items-center">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    bookmark
+                                </span>
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <div class="h-[1px] w-full bg-[#35383a]"></div>
+                <article class="px-4 pt-3 flex hover:cursor-pointer">
+                    <div class="mr-2 pt-1">
+                        <img class="border-0 rounded-full" width="40px" src="img/post-1.jpg " alt="">
+                    </div>
+                    <div class="main-post w-full pb-3">
+                        <div class="flex justify-between">
+                            <div class="block sm:flex">
+                                <span class="hover:underline">Indian Tech & Infra</span>
+                                <span class="pt-1 px-1">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                        data-testid="icon-verified">
+                                        <g>
+                                            <path clip-rule="evenodd"
+                                                d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="#829aab" fill-rule="evenodd"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="text-[#71767B]">@IndianTechGuide · May 29</span>
+                            </div>
+                            <div class="flex items-center p-1 hover:border-0 hover:rounded-full hover:bg-gray-900">
+                                <span class="material-symbols-outlined text-[#71767B] hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mb-3">Delhi recorded highest ever recorded temperature in India at 52.3 °C.</div>
+
+                        <img class="border-0 rounded-2xl"
+                            src="https://pbs.twimg.com/media/GOveUogbIAAdKkJ?format=jpg&name=small" alt="">
+
+                        <div class="flex justify-between pt-2 text-[#71767B]">
+                            <div class="w-[20%] flex items-center hover:text-[#1d9bf0]">
+                                <span
+                                    class="material-symbols-outlined pr-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    chat_bubble
+                                </span>
+                                <span class="text-[13px]">523</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(0,186,24)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(0,186,24)] rounded-full hover:bg-[rgba(0,186,24,0.2)] flex items-center justify-center">
+                                    published_with_changes
+                                </span>
+                                <span class="text-[13px]">3.3K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(249,24,128)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(249,24,128)] rounded-full hover:bg-[rgba(249,24,128,0.2)] flex items-center justify-center">
+                                    favorite
+                                </span>
+                                <span class="text-[13px]">24K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(29,155,240)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    Equalizer
+                                </span>
+                                <span class="text-[13px]">1.19M</span>
+                            </div>
+                            <div class="w-[12%] flex justify-end items-center">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    bookmark
+                                </span>
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <div class="h-[1px] w-full bg-[#35383a]"></div>
+                <article class="px-4 pt-3 flex hover:cursor-pointer">
+                    <div class="mr-2 pt-1">
+                        <img class="border-0 rounded-full" width="40px" src="img/post-1.jpg " alt="">
+                    </div>
+                    <div class="main-post w-full pb-3">
+                        <div class="flex justify-between">
+                            <div class="block sm:flex">
+                                <span class="hover:underline">Indian Tech & Infra</span>
+                                <span class="pt-1 px-1">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                        data-testid="icon-verified">
+                                        <g>
+                                            <path clip-rule="evenodd"
+                                                d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="#829aab" fill-rule="evenodd"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="text-[#71767B]">@IndianTechGuide · May 29</span>
+                            </div>
+                            <div class="flex items-center p-1 hover:border-0 hover:rounded-full hover:bg-gray-900">
+                                <span class="material-symbols-outlined text-[#71767B] hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mb-3">Delhi recorded highest ever recorded temperature in India at 52.3 °C.</div>
+
+                        <img class="border-0 rounded-2xl"
+                            src="https://pbs.twimg.com/media/GOveUogbIAAdKkJ?format=jpg&name=small" alt="">
+
+                        <div class="flex justify-between pt-2 text-[#71767B]">
+                            <div class="w-[20%] flex items-center hover:text-[#1d9bf0]">
+                                <span
+                                    class="material-symbols-outlined pr-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    chat_bubble
+                                </span>
+                                <span class="text-[13px]">523</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(0,186,24)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(0,186,24)] rounded-full hover:bg-[rgba(0,186,24,0.2)] flex items-center justify-center">
+                                    published_with_changes
+                                </span>
+                                <span class="text-[13px]">3.3K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(249,24,128)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(249,24,128)] rounded-full hover:bg-[rgba(249,24,128,0.2)] flex items-center justify-center">
+                                    favorite
+                                </span>
+                                <span class="text-[13px]">24K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(29,155,240)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    Equalizer
+                                </span>
+                                <span class="text-[13px]">1.19M</span>
+                            </div>
+                            <div class="w-[12%] flex justify-end items-center">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    bookmark
+                                </span>
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <div class="h-[1px] w-full bg-[#35383a]"></div>
+                <article class="px-4 pt-3 flex hover:cursor-pointer">
+                    <div class="mr-2 pt-1">
+                        <img class="border-0 rounded-full" width="40px" src="img/post-1.jpg " alt="">
+                    </div>
+                    <div class="main-post w-full pb-3">
+                        <div class="flex justify-between">
+                            <div class="block sm:flex">
+                                <span class="hover:underline">Indian Tech & Infra</span>
+                                <span class="pt-1 px-1">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                        data-testid="icon-verified">
+                                        <g>
+                                            <path clip-rule="evenodd"
+                                                d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="#829aab" fill-rule="evenodd"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="text-[#71767B]">@IndianTechGuide · May 29</span>
+                            </div>
+                            <div class="flex items-center p-1 hover:border-0 hover:rounded-full hover:bg-gray-900">
+                                <span class="material-symbols-outlined text-[#71767B] hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mb-3">Delhi recorded highest ever recorded temperature in India at 52.3 °C.</div>
+
+                        <img class="border-0 rounded-2xl"
+                            src="https://pbs.twimg.com/media/GOveUogbIAAdKkJ?format=jpg&name=small" alt="">
+
+                        <div class="flex justify-between pt-2 text-[#71767B]">
+                            <div class="w-[20%] flex items-center hover:text-[#1d9bf0]">
+                                <span
+                                    class="material-symbols-outlined pr-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    chat_bubble
+                                </span>
+                                <span class="text-[13px]">523</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(0,186,24)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(0,186,24)] rounded-full hover:bg-[rgba(0,186,24,0.2)] flex items-center justify-center">
+                                    published_with_changes
+                                </span>
+                                <span class="text-[13px]">3.3K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(249,24,128)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[rgb(249,24,128)] rounded-full hover:bg-[rgba(249,24,128,0.2)] flex items-center justify-center">
+                                    favorite
+                                </span>
+                                <span class="text-[13px]">24K</span>
+                            </div>
+                            <div class="w-[20%] flex items-center hover:text-[rgb(29,155,240)]">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center justify-center">
+                                    Equalizer
+                                </span>
+                                <span class="text-[13px]">1.19M</span>
+                            </div>
+                            <div class="w-[12%] flex justify-end items-center">
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    bookmark
+                                </span>
+                                <span
+                                    class="material-symbols-outlined
+                                p-1 h-7 w-7 text-lg text-[#71767B] hover:text-[#1d9bf0] rounded-full hover:bg-[rgba(29,155,240,0.2)] flex items-center">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <div class="h-[1px] w-full bg-[#35383a]"></div>
+            </div>
+        </div>
+        <div class="third w-[400px] px-4 pb-16 hidden md:block h-full sticky top-0">
+            <div class="search flex w-full mb-3 py-2">
+                <div class="searchlogo flex items-center justify-center bg-gray-900 text-[#71767B] p-3 rounded-l-full">
+                    <span class="material-symbols-outlined pl-3">
+                        search
+                    </span>
+                </div>
+                <input type="text" class="w-full rounded-r-full bg-gray-900 text-white p-3 active:border-r outline-none"
+                    placeholder="Search">
+            </div>
+
+            <div class="">
+                <div class="whats m-3  border border-[#71767B] rounded-[16px]">
+                    <h1 class="text-xl font-bold pt-3 px-4">What's happening</h1>
+                    <div class="item pt-3 px-4 hover:cursor-pointer">
+                        <div class="flex justify-between items-center text-[#71767B] text-[13px]">
+                            Trending in India
+                            <div class="hover:bg-gray-900 p-1 rounded-full w-8 flex items-center"><span
+                                    class="material-symbols-outlined hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-[#E7E9EA] font-bold">#ElectionResults</div>
+                        <div class="text-[#71767B] text-[13px] mt-1">40K Posts</div>
+                    </div>
+
+                    <div class="item pt-3 px-4 hover:cursor-pointer">
+                        <div class="flex justify-between items-center text-[#71767B] text-[13px]">
+                            Trending in India
+                            <div class="hover:bg-gray-900 p-1 rounded-full w-8 flex items-center"><span
+                                    class="material-symbols-outlined hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-[#E7E9EA] font-bold">#WaterCrisis</div>
+                        <div class="text-[#71767B] text-[13px] mt-1">2,572 Posts</div>
+                    </div>
+
+                    <div class="item pt-3 px-4 hover:cursor-pointer">
+                        <div class="flex justify-between items-center text-[#71767B] text-[13px]">
+                            Business & Finance
+                            <div class="hover:bg-gray-900 p-1 rounded-full w-8 flex items-center"><span
+                                    class="material-symbols-outlined hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-[#E7E9EA] font-bold">#StockUpdate</div>
+                        <div class="text-[#71767B] text-[13px] mt-1">21.1K Posts</div>
+                    </div>
+
+                    <div class="item pt-3 px-4 hover:cursor-pointer">
+                        <div class="flex justify-between items-center text-[#71767B] text-[13px]">
+                            Sports . Trending
+                            <div class="hover:bg-gray-900 p-1 rounded-full w-8 flex items-center"><span
+                                    class="material-symbols-outlined hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-[#E7E9EA] font-bold">#1RTM</div>
+                        <div class="text-[#71767B] text-[13px] mt-1">2500 Posts</div>
+                    </div>
+
+                    <div class="item pt-3 px-4 hover:cursor-pointer">
+                        <div class="flex justify-between items-center text-[#71767B] text-[13px]">
+                            Entertainment . Trending
+                            <div class="hover:bg-gray-900 p-1 rounded-full w-8 flex items-center"><span
+                                    class="material-symbols-outlined hover:text-[#1d9bf0]">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-[#E7E9EA] font-bold">#RanbeerKapoor</div>
+                        <div class="text-[#71767B] text-[13px] mt-1">40K Posts</div>
+                    </div>
+
+                    <div class="show p-4 text-[#1d9bf0]">
+                        <a href="#">Show more</a>
+                    </div>
+                </div>
+
+                <div class="follow m-3  border border-[#71767B] rounded-[16px]">
+                    <h1 class="text-xl font-bold pt-3 px-4">Who to follow</h1>
+
+                    <div class="list flex items-center px-4 pt-3 hover:cursor-pointer">
+                        <div class="photo mr-2">
+                            <img width="40px" class="border-0 rounded-full" src="img/delhiPolice.jpeg" alt="">
+                        </div>
+                        <div class="name w-full  flex justify-between items-center">
+                            <div>
+                                <div class="flex items-center hover:underline">Delhi Traffic Police
+                                    <div class="w-fit">
+                                        <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                            class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                            data-testid="icon-verified">
+                                            <g>
+                                                <path clip-rule="evenodd"
+                                                    d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                    fill="#829aab" fill-rule="evenodd"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="text-[#71767B] text-[15px]">@dtptraffic</div>
+                            </div>
+                            <div
+                                class="text-[14px] text-[#0F1419] bg-[#EFF3F4] w-[72px] h-8 px-4 flex items-center border-0 rounded-full font-bold hover:bg-gray-300">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list flex items-center px-4 pt-3 hover:cursor-pointer">
+                        <div class="photo mr-2">
+                            <img width="40px" class="border-0 rounded-full" src="img/modiji.png" alt="">
+                        </div>
+                        <div class="name w-full  flex justify-between items-center">
+                            <div>
+                                <div class="flex items-center hover:underline">PMO India
+                                    <div class="w-fit">
+                                        <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                            class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                            data-testid="icon-verified">
+                                            <g>
+                                                <path clip-rule="evenodd"
+                                                    d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                    fill="#829aab" fill-rule="evenodd"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="text-[#71767B] text-[15px]">@PMOIndia</div>
+                            </div>
+                            <div
+                                class="text-[14px] text-[#0F1419] bg-[#EFF3F4] w-[72px] h-8 px-4 flex items-center border-0 rounded-full font-bold hover:bg-gray-300">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list flex items-center px-4 pt-3 hover:cursor-pointer">
+                        <div class="photo mr-2">
+                            <img width="40px" class="border-0 rounded-full" src="img/delhipolice1.jpeg" alt="">
+                        </div>
+                        <div class="name w-full  flex justify-between items-center">
+                            <div>
+                                <div class="flex items-center hover:underline">Delhi Police
+                                    <div class="w-fit">
+                                        <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                            class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                            data-testid="icon-verified">
+                                            <g>
+                                                <path clip-rule="evenodd"
+                                                    d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                    fill="#829aab" fill-rule="evenodd"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="text-[#71767B] text-[15px]">@DelhiPolice</div>
+                            </div>
+                            <div
+                                class="text-[14px] text-[#0F1419] bg-[#EFF3F4] w-[72px] h-8 px-4 flex items-center border-0 rounded-full font-bold hover:bg-gray-300">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="show p-4 text-[#1d9bf0]">
+                        <a href="#">Show more</a>
+                    </div>
+
+                </div>
+
+                <div class="linktabs px-6 flex flex-wrap text-[#71767B] text-[13px] ">
+                    <div class="my-[2px] pr-3 hover:underline"><a href="#">Terms of Service</a></div>
+                    <div class="my-[2px] pr-3 hover:underline"><a href="#">Privacy Policy</a></div>
+                    <div class="my-[2px] pr-3 hover:underline"><a href="#">Cookie Policy</a></div>
+                    <div class="my-[2px] pr-3 hover:underline"><a href="#">Accessibility</a></div>
+                    <div class="my-[2px] pr-3 hover:underline"><a href="#">Ads Info</a></div>
+                    <div class="my-[2px] pr-3 hover:underline"><a href="#">More</a></div>
+                    <div class="my-[2px] pr-3 hover:underline"><a href="#">&copy;2024 X Corp.</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
